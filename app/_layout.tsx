@@ -1,5 +1,3 @@
-import { NativeWindStyleSheet } from "nativewind";
-
-NativeWindStyleSheet.setOutput({
-  default: "native",
-});
+//import { NativeWindStyleSheet } from "nativewind";
+import "@/global.css";
+import { GluestackUIProvider } from "@/components/ui/gluestack-ui-provider";
